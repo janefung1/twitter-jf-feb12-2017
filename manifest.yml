@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: twitter-jf-feb12-2017
+  host: twitter-jf-feb12-2017
+  disk_quota: 1024M
+  services:
+  - twitter-jf-feb12-2017-cloudantNoSQLDB
+  - twitter-jf-feb12-language
+  - twitter-jf-feb12-Conversation
